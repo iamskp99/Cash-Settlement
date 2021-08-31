@@ -6,7 +6,9 @@ amount of money with each other, forming a complex cyclic graph. It simplifies t
 acyclic graph by storing each edge into a min-heap and maintaining net % credit or debit at each vertex.
 </pre>
 
-<!-- ## How it works ?
-<pre>The algorithm maintains two heaps ,one min heap and one max heap containing edges of those giving the cash
-and one 
-</pre> -->
+## How it works ?
+<pre>The algorithm maintains two heaps ,one min heap and one max heap which contains the total amount 
+(which is treated as an edge) of those who gave the cash and the ones who took the cash respectively.
+
+After that we settle the amount by constantly popping the elements from both the heaps.
+</pre>
