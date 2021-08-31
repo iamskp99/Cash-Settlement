@@ -10,5 +10,6 @@ acyclic graph by storing each edge into a min-heap and maintaining net % credit 
 <pre>The algorithm maintains two heaps ,one min heap and one max heap which contains the total amount 
 (which is treated as an edge) of those who gave the cash and the ones who took the cash respectively.
 
-After that we settle the amount by constantly popping the elements from both the heaps.
+The main algorithm is based on greedy approach.
+We settle the amount by constantly popping the elements from both the heaps.
 </pre>
